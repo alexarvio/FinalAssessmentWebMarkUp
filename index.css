@@ -1,0 +1,77 @@
+body{
+  
+}
+.header{
+    padding: 30px;
+    text-align: center;
+    background: darkgreen;
+}
+.header h1{
+    font-size: 40px;
+    background-color: lightgreen;
+}
+.nav{
+    overflow: hidden;
+    background-color: black;
+}
+.nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: justify;
+    padding: 14px;
+    text-decoration: none;
+}
+.link1{
+    float: left;
+    display: inline;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    clear: left;
+}
+.link2{
+    float: left;
+    display: inline;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    clear: left;
+}
+.nav a:hover{
+    background-color: #ddd;
+    background-color: black;
+}
+section{
+    float: left;
+
+}
+.product1{
+    float: left;
+    background-color: cornflowerblue;
+    width: 80%;
+    border: 5px solid coral;
+    margin: 10px;
+}
+.product2{
+    float: left;
+    background: cyan;
+    width: 80%;
+    border: 5px solid coral;
+    margin: 10px;
+}
+.product3{
+    float: left;
+    background-color: lightgreen;
+    width: 80%;
+    border: 5px solid coral;
+    margin: 10px;
+}
+aside{
+    float: right;
+    width: 20%;
+    
+    text-align: left;
+    background-color: lightyellow;
+    padding: 20px;
+
+}

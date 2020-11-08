@@ -1,0 +1,63 @@
+body{
+    background-color: cyan;
+  
+
+}
+.header{
+    padding: 30px;
+    text-align: center;
+    background: darkgreen;
+}
+.header h1{
+    font-size: 40px;
+    background-color: lightgreen;
+}
+.nav{
+    
+    padding: 20px;
+    width: 100%;
+    background-color:black;
+    display: inline-flex;
+    
+     
+}
+.nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: #ddd;
+    color: black;
+}    
+.link1{
+    float: left;
+    display: inline;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    clear: left;
+}
+.link2{
+    float: left;
+    display: inline;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    clear: left;
+}
+
+
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: gold;
+    font-size: 15px;
+    padding: 20px;
+}
+.articel{
+    padding: 10px;
+    border: solid 10px cyan;
+}
